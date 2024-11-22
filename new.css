@@ -93,7 +93,7 @@
 #innerhorse5 {
     background-color: antiquewhite;
     font-size: 25px;
-    position: relative; /* Allow left property to work */
+    position: relative; 
     display: inline-block;
     /* width: 50px; Optional: Set a consistent width for emojis */
 }
