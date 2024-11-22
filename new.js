@@ -1,7 +1,7 @@
-const startRaceButton = document.getElementById("startRaceButton");
-const restartButton = document.getElementById("restart");
-const result = document.getElementById("Results");
-const placeBetButton = document.getElementById("placeBetButton");
+const startRaceButton=document.getElementById("startRaceButton");
+const restartButton=document.getElementById("restart");
+const result=document.getElementById("Results");
+const placeBetButton=document.getElementById("placeBetButton");
 
 // Start
 startRaceButton.addEventListener("click", () => {
@@ -12,7 +12,7 @@ startRaceButton.addEventListener("click", () => {
     const horse4bet=document.getElementById("horse4-bet").value;
     const horse5bet=document.getElementById("horse5-bet").value;
 
-    const bets = [horse1bet, horse2bet, horse3bet, horse4bet, horse5bet];
+    const bets=[horse1bet,horse2bet,horse3bet,horse4bet,horse5bet];
 
     // validating betting
     if (bets.filter(bet => bet > 0).length > 1) {
